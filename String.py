@@ -13,3 +13,6 @@ print(website.endswith("com")) #com ile mi bitiyor
 print(course.isalpha()) #alfabetik mi
 result ='Baslik'.center(50,'*') # center yerine ljust eklersen sola r just eklersen saga
 print(result)
+print(course.replace(' ','-')) #bosluklar - ile degisti
+print(course.replace(' ','')) #tüm bosluklar silindi
+print(str.replace('Word','There')) #hello there yer değisir
