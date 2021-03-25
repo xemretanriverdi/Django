@@ -11,12 +11,12 @@ print(result3)
 
 
 
-names=['Begüm','Bikem','Ümmügülsüm','Rüya','Ebru']
+names=['Fenerbahce','Galatasaray','Besiktas','Trabzonspor']
 
 #result4=names[random.randint(0,len(names))] alttak, kısası
 result5=random.choice(names)
 
-print(f"Yakın zamanda {result5} le buluşacaksın")
+print(f" {result5} Şampiyon olacak")
 
 liste= list(range(20)) #birden ona kadar liste olusturdu
 print(liste)
