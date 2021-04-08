@@ -39,3 +39,10 @@ print(c1.pati)
 
 
 
+class Movie:
+    def __init__(self,tittle,director,duration):
+        self.tittle=tittle
+        self.director=director
+        self.duration=duration
+        print("Movie Objesi Oluşturuldu")
+
