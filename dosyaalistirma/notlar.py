@@ -1,4 +1,4 @@
-notlarDosyasi=open("C:/Users/xemre/Desktop/Python/Django/dosyaalistirma/notlar.txt","r+",encoding="utf")
+notlarDosyasi=open("C:/Users/xemre/Desktop/Python/Django/dosyaalistirma/notlar.txt","r",encoding="utf")
 class Ogrenci:
 
    
@@ -46,14 +46,21 @@ for ogrenci in ogrenciler:
 
     if(ogrenci.ortalama()>=enbuyukOgrenciOrt.ortalama()):
         enbuyukOgrenciOrt=ogrenci
-
+    
 
 
 print(f"En Buyuk Lab1 Notu: {enbuyukOgrenci.info()}\n")
 print(f"En Kucuk Ortalama: {enKucukOgrenci.info()}\n")
 print(f"En Buyuk Ortalama: {enbuyukOgrenciOrt.info()}")
 
-    
+def ekle(Ogrenci):
+    with open("C:/Users/xemre/Desktop/Python/Django/dosyaalistirma/notlar.txt","a",encoding="utf") as file:
+        
+        
+        file.write(f"\n{Ogrenci.no} {Ogrenci.lab1} {Ogrenci.lab2} {Ogrenci.lab3}")
 
+        
+Emre=Ogrenci(111111,33,34,35)
 
+print(Emre.info())
 
