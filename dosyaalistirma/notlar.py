@@ -1,7 +1,5 @@
-notlarDosyasi=open("C:/Users/xemre/Desktop/Python/Django/dosyaalistirma/notlar.txt","r",encoding="utf")
+notlarDosyasi=open("C:/Users/xemre/Desktop/Python/Django/dosyaalistirma/notlar.txt","r",encoding="utf-8")
 class Ogrenci:
-
-   
 
     def __init__(self,no,lab1,lab2,lab3):
         self.no=no
@@ -19,9 +17,17 @@ class Ogrenci:
 
 
 notlar=notlarDosyasi.readlines()
+
+
+
+Ahmet = Ogrenci(2297,100,0,50)
+
+
 dersAdı=notlar[-1]
 notlar=notlar[1:-1:]
+
 ogrenciler=[]
+
 for quiz in notlar:
     quiz=quiz[:-1:]
     quiz=quiz.split(" ")
@@ -30,7 +36,7 @@ for quiz in notlar:
     lab2=float(quiz[2])
     lab3=float(quiz[3])
     ogrenciler.append(Ogrenci(no,lab1,lab2,lab3))
-
+    print(quiz)
 
 girilen="1821221023"
 enbuyukOgrenci=Ogrenci(1,0,0,0)
@@ -64,3 +70,6 @@ Emre=Ogrenci(111111,33,34,35)
 
 print(Emre.info())
 
+print(Ahmet.info())
+
+ekle(Ahmet)

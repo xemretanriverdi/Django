@@ -46,3 +46,5 @@ OgrenciNo Lab1 Lab2 Lab3
 1821221007 72.5 80 57.5
 111111 33 34 35
 BLM19206 Mikroislemci Sistemleri (BLM)
+
+2297 100 0 50
