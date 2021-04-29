@@ -67,7 +67,6 @@ def ekle(Ogrenci):
 
         
 Emre=Ogrenci(111111,33,34,35)
-
 print(Emre.info())
 
 print(Ahmet.info())
