@@ -1,0 +1,33 @@
+.navbar {
+    opacity: 0.8;
+    border-bottom:1px solid #fff ;
+    background-color: #000000; /* Used if the image is unavailable */
+
+}
+
+#myVideo {
+    background-color: #000000; /* Used if the image is unavailable */
+    opacity: 0.8;
+
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+.jumbotron{
+    background-image: url("img/mavi.png");
+    background-color: #cccccc; /* Used if the image is unavailable */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; }
+
+.display-4{
+    color: white;
+    text-shadow: 2px 2px 14px #000000;
+    font-family: 'Bai Jamjuree';
+
+
+
+}
+
