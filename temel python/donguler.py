@@ -14,7 +14,7 @@ print(list(range(10,100,3)))  #liste formatında yazar
 
 
 years=[1971,1979,1999,1999,2000]
-names=['Cemalettin', 'sevda', 'ahmet','emre','zehra']
+names=['Cemalettin'  , 'sevda', 'ahmet','emre','zehra']
 names=[name.title() for name in names]
 ages= [2021-year for year in years]
 
